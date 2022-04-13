@@ -1,0 +1,4 @@
+# These lines are used to redirect all requests to the index.php file:
+
+RewriteEngine on
+RewriteRule ^((?!index\.php).+)$ /index.php [L]
